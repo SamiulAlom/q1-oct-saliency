@@ -1,0 +1,23 @@
+{
+ "python": "3.13.17",
+ "packages": {
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2"
+ },
+ "seed": 20261119,
+ "resamples": 10000,
+ "smoke": false,
+ "plan_deviation": "D10",
+ "notebook04_source_sha256": "5cf5e405a97b0939ee4ce3399685242ab0ef2471e20f0cc08bdb5105a607854c",
+ "input_sha256": {
+  "faithfulness_scores.csv.gz": "bca425eb4f81e7da612f49ea8f2eeca2d134ac84bc63c1dad6fb6ce90adbb2f6",
+  "model_eligibility.csv": "1371010ab6a2e581bb177c484336be7c492bb215b2cbbd9a0c2478dbc9a9d589",
+  "h1_family_contrasts.csv": "6349c0255a1828cdaead974167da28b1f6d5cd60717702ad0d600ac4648460a4",
+  "family_method_means.csv": "5fdd60555976f9995dde4dc610bac37e518c1655a451da7baec859aacdbb50fb",
+  "gradcam_validity.csv": "213f54bd5b2fb6ac9b5fc397fb6adab846e6c1b4c64d6dbbdf6372cb57dacdbb",
+  "kermany_split.csv": "655b1785339d81d629ec8794e7698a6ada55161994a7fe02fab20a9073a506a6"
+ },
+ "run_utc": "2026-11-21T11:59:04+00:00"
+}

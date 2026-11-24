@@ -1,0 +1,12 @@
+{
+ "inputs_sha256": {
+  "model_method_means.csv": "4d5b1b2766cf0b16896a51066c85942fb7983a96f30dee43bf14cf69833f7e84",
+  "class_method_means.csv": "586610e799a3dd79968c2e337a700877cec8192af8f0e5b79b21c12104c847d6",
+  "posthoc_class_edge.csv": "277e7871d7a2ca9d8b42762e5c2cc80dc87c7a6cefe2b80d4b40219433ca2073",
+  "h1_family_contrasts.csv": "6349c0255a1828cdaead974167da28b1f6d5cd60717702ad0d600ac4648460a4",
+  "h2_class_contrasts.csv": "ef5b30aecd8797321c290d0ec112b400197b644f804433bd4d20800d885b36c7",
+  "posthoc_edge_adjusted_by_model.csv": "22ac593db2f70afa9d3e7897976dad2d06f123c17ca2f7e8002e5ac790bdf593",
+  "test_accuracy.csv": "e5aa5a92913abb45620c4fd5aa7827088e357d6620466264cc65d53ea6396970"
+ },
+ "run_utc": "2026-11-21T12:23:13+00:00"
+}

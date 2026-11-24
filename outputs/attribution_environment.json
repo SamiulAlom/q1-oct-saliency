@@ -1,0 +1,203 @@
+{
+ "python": "3.13.17",
+ "platform": "Windows-11-10.0.26300-SP0",
+ "device": "cuda",
+ "packages": {
+  "torch": "2.6.0+cu124",
+  "timm": "1.0.31",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "Pillow": "13.0.0",
+  "scipy": "1.18.1"
+ },
+ "gpu": "NVIDIA GeForce RTX 3060",
+ "smoke": false,
+ "signature": "87e02699b675ebb61c9833823c59c280b6a799cad4d2e98f7cf6374d59dc5274",
+ "gradcam_layers": {
+  "efficientnet_b0": [
+   "bn2",
+   "conv"
+  ],
+  "mobilenetv3_large_100": [
+   "blocks",
+   "conv"
+  ],
+  "mobilevit_s": [
+   "final_conv",
+   "conv"
+  ],
+  "efficientformer_l1": [
+   "stages.3.blocks.2",
+   "conv"
+  ],
+  "deit_tiny_patch16_224": [
+   "blocks.11.norm1",
+   "tokens_cls"
+  ],
+  "deit_small_patch16_224": [
+   "blocks.11.norm1",
+   "tokens_cls"
+  ]
+ },
+ "eligible_models": [
+  "efficientnet_b0",
+  "mobilenetv3_large_100",
+  "mobilevit_s",
+  "efficientformer_l1",
+  "deit_tiny_patch16_224",
+  "deit_small_patch16_224"
+ ],
+ "timing_seconds_per_image": [
+  {
+   "run": "efficientnet_b0_s11",
+   "sec_per_image_gradcam": 0.0010130768686734148,
+   "sec_per_image_ig": 0.07031250988620916,
+   "sec_per_image_occlusion": 0.23470662231040668,
+   "sec_per_image_curves": 0.5483002529309824,
+   "sec_per_image_rollout": NaN
+  },
+  {
+   "run": "efficientnet_b0_s22",
+   "sec_per_image_gradcam": 0.0010429681669435712,
+   "sec_per_image_ig": 0.07051035592273208,
+   "sec_per_image_occlusion": 0.15440062018921427,
+   "sec_per_image_curves": 0.35816795041958877,
+   "sec_per_image_rollout": NaN
+  },
+  {
+   "run": "efficientnet_b0_s33",
+   "sec_per_image_gradcam": 0.0010474608742282615,
+   "sec_per_image_ig": 0.07052446883117912,
+   "sec_per_image_occlusion": 0.1545514310912203,
+   "sec_per_image_curves": 0.35827941443904043,
+   "sec_per_image_rollout": NaN
+  },
+  {
+   "run": "mobilenetv3_large_100_s11",
+   "sec_per_image_gradcam": 0.0006262612319843289,
+   "sec_per_image_ig": 0.039821010891243944,
+   "sec_per_image_occlusion": 0.09495418189001865,
+   "sec_per_image_curves": 0.21825872667730142,
+   "sec_per_image_rollout": NaN
+  },
+  {
+   "run": "mobilenetv3_large_100_s22",
+   "sec_per_image_gradcam": 0.0005853711811532855,
+   "sec_per_image_ig": 0.039677567514182284,
+   "sec_per_image_occlusion": 0.09494746731470267,
+   "sec_per_image_curves": 0.2182564788292321,
+   "sec_per_image_rollout": NaN
+  },
+  {
+   "run": "mobilenetv3_large_100_s33",
+   "sec_per_image_gradcam": 0.0005835380940451112,
+   "sec_per_image_ig": 0.0396842745024075,
+   "sec_per_image_occlusion": 0.09494766296967935,
+   "sec_per_image_curves": 0.2182571126961777,
+   "sec_per_image_rollout": NaN
+  },
+  {
+   "run": "mobilevit_s_s11",
+   "sec_per_image_gradcam": 0.0018888246357843294,
+   "sec_per_image_ig": 0.1285220123647839,
+   "sec_per_image_occlusion": 0.30278627231013006,
+   "sec_per_image_curves": 0.7213685599909224,
+   "sec_per_image_rollout": NaN
+  },
+  {
+   "run": "mobilevit_s_s22",
+   "sec_per_image_gradcam": 0.0018935461053507998,
+   "sec_per_image_ig": 0.12852160312170693,
+   "sec_per_image_occlusion": 0.3025661441376262,
+   "sec_per_image_curves": 0.7213637665589497,
+   "sec_per_image_rollout": NaN
+  },
+  {
+   "run": "mobilevit_s_s33",
+   "sec_per_image_gradcam": 0.001895133646612802,
+   "sec_per_image_ig": 0.12868421631815807,
+   "sec_per_image_occlusion": 0.30282664551914257,
+   "sec_per_image_curves": 0.7219577789766465,
+   "sec_per_image_rollout": NaN
+  },
+  {
+   "run": "efficientformer_l1_s11",
+   "sec_per_image_gradcam": 0.0011349296845718428,
+   "sec_per_image_ig": 0.06750789948576556,
+   "sec_per_image_occlusion": 0.19221689983871887,
+   "sec_per_image_curves": 0.4681210228194381,
+   "sec_per_image_rollout": NaN
+  },
+  {
+   "run": "efficientformer_l1_s22",
+   "sec_per_image_gradcam": 0.0011111607087152789,
+   "sec_per_image_ig": 0.06701370352374439,
+   "sec_per_image_occlusion": 0.19116432940373657,
+   "sec_per_image_curves": 0.464948979040236,
+   "sec_per_image_rollout": NaN
+  },
+  {
+   "run": "efficientformer_l1_s33",
+   "sec_per_image_gradcam": 0.0011103928031663886,
+   "sec_per_image_ig": 0.06701803529274038,
+   "sec_per_image_occlusion": 0.19119116908214132,
+   "sec_per_image_curves": 0.467749766006764,
+   "sec_per_image_rollout": NaN
+  },
+  {
+   "run": "deit_tiny_patch16_224_s11",
+   "sec_per_image_gradcam": 0.0007162880414707107,
+   "sec_per_image_ig": 0.05565918790914744,
+   "sec_per_image_occlusion": 0.10984416821883522,
+   "sec_per_image_curves": 0.290271365883955,
+   "sec_per_image_rollout": 0.0007002705433329598
+  },
+  {
+   "run": "deit_tiny_patch16_224_s22",
+   "sec_per_image_gradcam": 0.0007139477688413232,
+   "sec_per_image_ig": 0.05566703549001578,
+   "sec_per_image_occlusion": 0.10981993022282305,
+   "sec_per_image_curves": 0.29033347357894324,
+   "sec_per_image_rollout": 0.0006996757614003313
+  },
+  {
+   "run": "deit_tiny_patch16_224_s33",
+   "sec_per_image_gradcam": 0.0007139017864731262,
+   "sec_per_image_ig": 0.055654413329945696,
+   "sec_per_image_occlusion": 0.10986485614611075,
+   "sec_per_image_curves": 0.2903074753778765,
+   "sec_per_image_rollout": 0.0007001923733070248
+  },
+  {
+   "run": "deit_small_patch16_224_s11",
+   "sec_per_image_gradcam": 0.0016365262788424957,
+   "sec_per_image_ig": 0.12484057797990172,
+   "sec_per_image_occlusion": 0.2631515934704125,
+   "sec_per_image_curves": 0.7091067536242788,
+   "sec_per_image_rollout": 0.0015187093354007202
+  },
+  {
+   "run": "deit_small_patch16_224_s22",
+   "sec_per_image_gradcam": 0.0016356942278899706,
+   "sec_per_image_ig": 0.1248404892339311,
+   "sec_per_image_occlusion": 0.2632132765182304,
+   "sec_per_image_curves": 0.7092862818946949,
+   "sec_per_image_rollout": 0.0015183835503220443
+  },
+  {
+   "run": "deit_small_patch16_224_s33",
+   "sec_per_image_gradcam": 0.0016403701749119258,
+   "sec_per_image_ig": 0.1248371851708643,
+   "sec_per_image_occlusion": 0.26307396695606966,
+   "sec_per_image_curves": 0.7088332688911901,
+   "sec_per_image_rollout": 0.0015183755034076098
+  }
+ ],
+ "n_images": {
+  "kermany": 820,
+  "octdl": 217,
+  "validation_for_gradcam_validity": 200
+ },
+ "total_minutes": 241.63607281049093,
+ "run_utc": "2026-11-19T18:56:13+00:00"
+}

@@ -1,0 +1,13 @@
+dataset,links,images,patients,groups,largest_group_images,share_of_images_in_largest_group,largest_group_patients,share_of_patients_in_largest_group,groups_with_more_than_one_patient,groups_with_more_than_one_class,group_image_size_quantiles_50_90_99_max
+kermany,patient and identical images only,109309,5420,5395,813,0.0074,3,0.0006,23,787,"[10, 40, 198, 813]"
+kermany,plus pHash distance <= 0,109309,5420,5367,813,0.0074,3,0.0006,49,788,"[10, 40, 199, 813]"
+kermany,plus pHash distance <= 1,109309,5420,5367,813,0.0074,3,0.0006,49,788,"[10, 40, 199, 813]"
+kermany,plus pHash distance <= 2,109309,5420,4148,36346,0.3325,933,0.1721,219,567,"[10, 36, 170, 36346]"
+kermany,plus pHash distance <= 3,109309,5420,4148,36346,0.3325,933,0.1721,219,567,"[10, 36, 170, 36346]"
+kermany,plus pHash distance <= 4,109309,5420,1621,97354,0.8906,3758,0.6934,42,134,"[4, 15, 65, 97354]"
+octdl,patient and identical images only,2064,820,793,19,0.0092,3,0.0037,22,1,"[2, 5, 8, 19]"
+octdl,plus pHash distance <= 0,2064,820,759,27,0.0131,5,0.0061,47,3,"[2, 5, 11, 27]"
+octdl,plus pHash distance <= 1,2064,820,759,27,0.0131,5,0.0061,47,3,"[2, 5, 11, 27]"
+octdl,plus pHash distance <= 2,2064,820,734,34,0.0165,7,0.0085,57,5,"[2, 5, 13, 34]"
+octdl,plus pHash distance <= 3,2064,820,734,34,0.0165,7,0.0085,57,5,"[2, 5, 13, 34]"
+octdl,plus pHash distance <= 4,2064,820,718,38,0.0184,10,0.0122,65,7,"[2, 6, 13, 38]"

@@ -1,0 +1,244 @@
+{
+  "seed": 20261119,
+  "hamming_max": 4,
+  "group_hamming": 0,
+  "max_group_share": 0.05,
+  "parser_version": "3",
+  "fractions_train_val_test": [
+    0.7,
+    0.1,
+    0.2
+  ],
+  "train_cap": 12,
+  "attribution_patients_per_class": 250,
+  "kermany_split_csv_sha256": "655b1785339d81d629ec8794e7698a6ada55161994a7fe02fab20a9073a506a6",
+  "phash_probe": "ef11d13d8439e20f",
+  "kermany": {
+    "dataset": "kermany_v3",
+    "images": 109309,
+    "patients": 5420,
+    "images_per_class": {
+      "NORMAL": 51390,
+      "CNV": 37455,
+      "DME": 11598,
+      "DRUSEN": 8866
+    },
+    "patients_per_class": {
+      "CNV": 969,
+      "DME": 876,
+      "DRUSEN": 882,
+      "NORMAL": 3605
+    },
+    "patient_ids_in_more_than_one_class": 787,
+    "identical_file_sets": 7092,
+    "identical_file_sets_with_different_patient_ids": 19,
+    "identical_pixel_sets": 7117,
+    "identical_pixel_sets_with_different_patient_ids": 44,
+    "near_duplicate_pairs_by_hamming_distance": {
+      "0": 10550,
+      "1": 0,
+      "2": 5098,
+      "3": 0,
+      "4": 34538
+    },
+    "near_duplicate_pairs_between_different_patient_ids": 28296,
+    "groups": 5367,
+    "largest_group_images": 813,
+    "image_sizes_top5": {
+      "512x496": 58037,
+      "768x496": 29749,
+      "1536x496": 11512,
+      "512x512": 8659,
+      "1024x496": 1329
+    },
+    "image_modes": {
+      "L": 109307,
+      "RGB": 2
+    },
+    "provided_split_counts": {
+      "train": 108309,
+      "test": 1000
+    },
+    "patient_ids_in_more_than_one_provided_split": 0,
+    "near_duplicate_pairs_across_provided_splits": 116
+  },
+  "split": {
+    "images_per_partition_and_class": {
+      "CNV": {
+        "test": 7722,
+        "train": 26105,
+        "val": 3628
+      },
+      "DME": {
+        "test": 2327,
+        "train": 8186,
+        "val": 1085
+      },
+      "DRUSEN": {
+        "test": 1868,
+        "train": 6151,
+        "val": 847
+      },
+      "NORMAL": {
+        "test": 10620,
+        "train": 35556,
+        "val": 5214
+      }
+    },
+    "patients_per_partition_and_class": {
+      "CNV": {
+        "test": 213,
+        "train": 653,
+        "val": 103
+      },
+      "DME": {
+        "test": 184,
+        "train": 605,
+        "val": 87
+      },
+      "DRUSEN": {
+        "test": 173,
+        "train": 613,
+        "val": 96
+      },
+      "NORMAL": {
+        "test": 726,
+        "train": 2519,
+        "val": 360
+      }
+    },
+    "groups_per_partition": {
+      "test": 1073,
+      "train": 3757,
+      "val": 537
+    },
+    "capped_training_images_per_class": {
+      "NORMAL": 24198,
+      "CNV": 4858,
+      "DME": 3329,
+      "DRUSEN": 3107
+    },
+    "test_patients_per_class_before_the_250_cap": {
+      "CNV": 213,
+      "DME": 184,
+      "DRUSEN": 173,
+      "NORMAL": 726
+    },
+    "attribution_test_images_per_class": {
+      "NORMAL": 250,
+      "CNV": 213,
+      "DME": 184,
+      "DRUSEN": 173
+    },
+    "attribution_test_patients": 690,
+    "attribution_test_groups": 680,
+    "attribution_patients_contributing_more_than_one_class": 121,
+    "classes_with_fewer_than_100_attribution_patients": []
+  },
+  "octdl": {
+    "dataset": "octdl_v4",
+    "images": 2064,
+    "patients": 820,
+    "images_per_class": {
+      "AMD": 1231,
+      "NORMAL": 332,
+      "ERM": 155,
+      "DME": 147,
+      "RVO": 101,
+      "VID": 76,
+      "RAO": 22
+    },
+    "patients_per_class": {
+      "AMD": 421,
+      "DME": 107,
+      "ERM": 71,
+      "NORMAL": 110,
+      "RAO": 11,
+      "RVO": 50,
+      "VID": 51
+    },
+    "patient_ids_in_more_than_one_class": 1,
+    "identical_file_sets": 1,
+    "identical_file_sets_with_different_patient_ids": 0,
+    "identical_pixel_sets": 55,
+    "identical_pixel_sets_with_different_patient_ids": 47,
+    "near_duplicate_pairs_by_hamming_distance": {
+      "0": 101,
+      "1": 0,
+      "2": 39,
+      "3": 0,
+      "4": 31
+    },
+    "near_duplicate_pairs_between_different_patient_ids": 142,
+    "groups": 759,
+    "largest_group_images": 27,
+    "image_sizes_top5": {
+      "882x322": 304,
+      "882x315": 91,
+      "579x211": 55,
+      "882x314": 50,
+      "1102x412": 49
+    },
+    "image_modes": {
+      "RGB": 1797,
+      "RGBA": 267
+    }
+  },
+  "octdl_images_matching_kermany": 0,
+  "kermany_unlinked_lookalike_pairs_by_partition_pair": {
+    "test-test": 1145,
+    "test-train": 8011,
+    "test-val": 1096,
+    "train-train": 13892,
+    "train-val": 3812,
+    "val-val": 247
+  },
+  "octdl_test_unlinked_lookalikes_vs_kermany_train": {
+    "pairs_with_kermany_train_by_distance": {
+      "4": 4
+    },
+    "octdl_test_images_with_any_kermany_train_pair_at_distance_1_to_4": 2,
+    "octdl_test_images": 217
+  },
+  "octdl_exploratory_test_images_per_class": {
+    "NORMAL": 110,
+    "DME": 107
+  },
+  "raw_files": [
+    {
+      "file": "ZhangLabData.zip",
+      "dataset_doi": "10.17632/rscbjbr9sj.3",
+      "url": "https://data.mendeley.com/public-files/datasets/rscbjbr9sj/files/810b2ce2-11c3-4424-996e-3bef36600907/file_downloaded",
+      "downloaded_utc": "2026-11-19T09:49:47+00:00",
+      "size_bytes": 8441154111,
+      "sha256": "acbc42869440eec719361942d0ba560f132742230262f22e78bfb93eb5ea4563"
+    },
+    {
+      "file": "OCTDL_labels.csv",
+      "dataset_doi": "10.17632/sncdhf53xc.4",
+      "url": "https://data.mendeley.com/public-files/datasets/sncdhf53xc/files/82880b41-939c-42b5-9f6b-3304b2c8dca1/file_downloaded",
+      "downloaded_utc": "2026-11-19T09:49:47+00:00",
+      "size_bytes": 109541,
+      "sha256": "b7db437cfe67741623f26e8bb2cef0f4d6828d6d86150f752f412da1c4ee8b3a"
+    },
+    {
+      "file": "OCTDL.zip",
+      "dataset_doi": "10.17632/sncdhf53xc.4",
+      "url": "https://data.mendeley.com/public-files/datasets/sncdhf53xc/files/2721fe0f-7793-4ef5-b2d0-d31a2ebfdeef/file_downloaded",
+      "downloaded_utc": "2026-11-19T09:49:47+00:00",
+      "size_bytes": 398564236,
+      "sha256": "637a72ff3319645aac30408d4d838189337ac0b8b0f9faabf7c8156d271f46f7"
+    }
+  ],
+  "python": "3.13.17",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "Pillow": "13.0.0",
+    "ImageHash": "4.3.1",
+    "scipy": "1.18.1",
+    "PyWavelets": "1.10.0",
+    "requests": "2.34.2"
+  },
+  "run_utc": "2026-11-19T09:50:42+00:00"
+}

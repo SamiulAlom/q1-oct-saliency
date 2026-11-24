@@ -1,0 +1,6 @@
+member,class,excluded_because
+CellData/OCT/train/CNV/CNV-9025088-1.jpeg,CNV,"label conflict (same pixels, different class)"
+CellData/OCT/train/DRUSEN/DRUSEN-9025088-1.jpeg,DRUSEN,"label conflict (same pixels, different class)"
+CellData/OCT/test/DRUSEN/DRUSEN-6552587-1.jpeg,DRUSEN,same-label exact copy (first by name kept)
+CellData/OCT/test/DRUSEN/DRUSEN-7650080-1.jpeg,DRUSEN,same-label exact copy (first by name kept)
+CellData/OCT/test/DRUSEN/DRUSEN-9703681-1.jpeg,DRUSEN,same-label exact copy (first by name kept)

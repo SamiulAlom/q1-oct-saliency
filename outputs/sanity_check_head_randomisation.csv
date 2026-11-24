@@ -1,0 +1,13 @@
+model,seed,method,median_spearman,share_above_0.9_of_defined,n,n_undefined,status,note
+efficientnet_b0,11,ig,-0.02068388464327551,0.0,820,0,sensitive,tests sensitivity to the classifier head only; edge maps and rollout do not depend on the head
+efficientnet_b0,11,gradcam,0.2356342195958414,0.0,820,0,sensitive,tests sensitivity to the classifier head only; edge maps and rollout do not depend on the head
+mobilenetv3_large_100,11,ig,-0.02361960012431369,0.0,820,0,sensitive,tests sensitivity to the classifier head only; edge maps and rollout do not depend on the head
+mobilenetv3_large_100,11,gradcam,0.24674922690528936,0.0,820,0,sensitive,tests sensitivity to the classifier head only; edge maps and rollout do not depend on the head
+mobilevit_s,11,ig,-0.2498115372662146,0.0,820,0,sensitive,tests sensitivity to the classifier head only; edge maps and rollout do not depend on the head
+mobilevit_s,11,gradcam,-0.5935323652977386,0.004884004884004884,820,1,sensitive,tests sensitivity to the classifier head only; edge maps and rollout do not depend on the head
+efficientformer_l1,11,ig,0.1753954529879113,0.0,820,0,sensitive,tests sensitivity to the classifier head only; edge maps and rollout do not depend on the head
+efficientformer_l1,11,gradcam,0.15531510612952096,0.004884004884004884,820,1,sensitive,tests sensitivity to the classifier head only; edge maps and rollout do not depend on the head
+deit_tiny_patch16_224,11,ig,0.23971105037094886,0.0,820,0,sensitive,tests sensitivity to the classifier head only; edge maps and rollout do not depend on the head
+deit_tiny_patch16_224,11,gradcam,0.3235214291843323,0.007317073170731708,820,0,sensitive,tests sensitivity to the classifier head only; edge maps and rollout do not depend on the head
+deit_small_patch16_224,11,ig,0.00994509478918471,0.0,820,0,sensitive,tests sensitivity to the classifier head only; edge maps and rollout do not depend on the head
+deit_small_patch16_224,11,gradcam,0.12593205735330387,0.00853658536585366,820,0,sensitive,tests sensitivity to the classifier head only; edge maps and rollout do not depend on the head

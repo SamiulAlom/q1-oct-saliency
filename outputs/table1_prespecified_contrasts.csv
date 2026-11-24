@@ -1,0 +1,19 @@
+hypothesis,method,contrast,estimate_ci95,p_holm,seed_robust,source
+H1 (family),gradcam,convolutional - hybrid,"-0.135 [-0.144, -0.126]",<0.001,yes,h1_family_contrasts.csv
+H1 (family),gradcam,convolutional - transformer,"-0.142 [-0.158, -0.127]",<0.001,yes,h1_family_contrasts.csv
+H1 (family),gradcam,hybrid - transformer,"-0.007 [-0.022, +0.008]",0.377,no,h1_family_contrasts.csv
+H1 (family),ig,convolutional - hybrid,"-0.049 [-0.059, -0.038]",<0.001,no,h1_family_contrasts.csv
+H1 (family),ig,convolutional - transformer,"-0.497 [-0.513, -0.480]",<0.001,yes,h1_family_contrasts.csv
+H1 (family),ig,hybrid - transformer,"-0.448 [-0.467, -0.429]",<0.001,yes,h1_family_contrasts.csv
+H1 (family),occlusion,convolutional - hybrid,"-0.180 [-0.192, -0.168]",<0.001,yes,h1_family_contrasts.csv
+H1 (family),occlusion,convolutional - transformer,"-0.261 [-0.281, -0.242]",<0.001,yes,h1_family_contrasts.csv
+H1 (family),occlusion,hybrid - transformer,"-0.081 [-0.104, -0.059]",<0.001,yes,h1_family_contrasts.csv
+H2 (class),gradcam,CNV - DME,"-0.058 [-0.081, -0.034]",<0.001,n/a,h2_class_contrasts.csv
+H2 (class),gradcam,CNV - DRUSEN,"-0.116 [-0.145, -0.085]",<0.001,n/a,h2_class_contrasts.csv
+H2 (class),gradcam,DME - DRUSEN,"-0.058 [-0.090, -0.025]",0.001,n/a,h2_class_contrasts.csv
+H2 (class),ig,CNV - DME,"-0.125 [-0.148, -0.101]",<0.001,n/a,h2_class_contrasts.csv
+H2 (class),ig,CNV - DRUSEN,"-0.156 [-0.182, -0.131]",<0.001,n/a,h2_class_contrasts.csv
+H2 (class),ig,DME - DRUSEN,"-0.032 [-0.057, -0.007]",0.026,n/a,h2_class_contrasts.csv
+H2 (class),occlusion,CNV - DME,"-0.199 [-0.231, -0.166]",<0.001,n/a,h2_class_contrasts.csv
+H2 (class),occlusion,CNV - DRUSEN,"-0.239 [-0.272, -0.205]",<0.001,n/a,h2_class_contrasts.csv
+H2 (class),occlusion,DME - DRUSEN,"-0.041 [-0.072, -0.009]",0.026,n/a,h2_class_contrasts.csv

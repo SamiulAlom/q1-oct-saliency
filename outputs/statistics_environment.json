@@ -1,0 +1,34 @@
+{
+ "python": "3.13.17",
+ "packages": {
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2"
+ },
+ "seed": 20261119,
+ "resamples": 10000,
+ "eligible_models": [
+  "efficientnet_b0",
+  "mobilenetv3_large_100",
+  "mobilevit_s",
+  "efficientformer_l1",
+  "deit_tiny_patch16_224",
+  "deit_small_patch16_224"
+ ],
+ "kermany_groups": 680,
+ "octdl_groups": 202,
+ "smoke": false,
+ "run_utc": "2026-11-21T12:00:59+00:00",
+ "input_sha256": {
+  "faithfulness_scores.csv.gz": "bca425eb4f81e7da612f49ea8f2eeca2d134ac84bc63c1dad6fb6ce90adbb2f6",
+  "faithfulness_curves.csv.gz": "8e9a8c46da495b7224e800ac0d19fceaf0ddb40f2c74691235511598450f1100",
+  "model_eligibility.csv": "1371010ab6a2e581bb177c484336be7c492bb215b2cbbd9a0c2478dbc9a9d589",
+  "predictions_test.csv.gz": "9ddc01b7d0c7d39980ff9e8c1e8eaa211e0067dad142be036b2d9f5ea394a288",
+  "predictions_octdl.csv.gz": "c7b907d4ae56485516df725e01ebfdeccc526b5a855e0c3049cd858b532124bb",
+  "kermany_split.csv": "655b1785339d81d629ec8794e7698a6ada55161994a7fe02fab20a9073a506a6",
+  "octdl_inventory.csv": "357e26a6a263009ac160d161d0661bb956251b405505751fe3ec0e32348197cb",
+  "attribution_files.csv": "8bc01563023d13b4eab5495c7b918800a15910aecfe8fcb82371b279bb1362fc",
+  "gradcam_validity.csv": "213f54bd5b2fb6ac9b5fc397fb6adab846e6c1b4c64d6dbbdf6372cb57dacdbb"
+ }
+}

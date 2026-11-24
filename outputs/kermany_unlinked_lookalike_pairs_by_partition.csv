@@ -1,0 +1,13 @@
+hamming,partitions,pairs
+2,test-test,70
+2,test-train,503
+2,test-val,61
+2,train-train,838
+2,train-val,222
+2,val-val,11
+4,test-test,1075
+4,test-train,7508
+4,test-val,1035
+4,train-train,13054
+4,train-val,3590
+4,val-val,236

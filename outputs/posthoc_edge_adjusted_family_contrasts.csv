@@ -1,0 +1,19 @@
+analysis,fill,method,contrast,n_images,n_groups,estimate,se_cluster,inference,ci95_low,ci95_high,n_resamples_invalid
+"POST HOC (D10), exploratory, no tests",blur,gradcam,convolutional - hybrid,820,680,0.046711470373898854,0.004985323836337642,defined,0.03695827539170976,0.05649006041809679,0
+"POST HOC (D10), exploratory, no tests",blur,gradcam,convolutional - transformer,820,680,0.03352832457228039,0.006371864768665449,defined,0.021218529393316206,0.045598268451668054,0
+"POST HOC (D10), exploratory, no tests",blur,gradcam,hybrid - transformer,820,680,-0.013183145801618472,0.005851825023068653,defined,-0.024419514785092775,-0.0017406054227940139,0
+"POST HOC (D10), exploratory, no tests",blur,ig,convolutional - hybrid,820,680,0.13348708585062694,0.006879236087403651,defined,0.1199530197324224,0.1469229475706933,0
+"POST HOC (D10), exploratory, no tests",blur,ig,convolutional - transformer,820,680,-0.3208672378875392,0.009413711354583422,defined,-0.3392729143830708,-0.30257040157427545,0
+"POST HOC (D10), exploratory, no tests",blur,ig,hybrid - transformer,820,680,-0.4543543237381662,0.010211455366293138,defined,-0.4745876508223537,-0.4344882708120027,0
+"POST HOC (D10), exploratory, no tests",blur,occlusion,convolutional - hybrid,820,680,0.0018197628687976683,0.0072912169774773114,defined,-0.012268418031160624,0.016410099695457783,0
+"POST HOC (D10), exploratory, no tests",blur,occlusion,convolutional - transformer,820,680,-0.08544100205961376,0.010860743413908155,defined,-0.10668746114395902,-0.06491993137189118,0
+"POST HOC (D10), exploratory, no tests",blur,occlusion,hybrid - transformer,820,680,-0.08726076492841142,0.011628259739356502,defined,-0.10965167539263895,-0.06502534383719391,0
+"POST HOC (D10), exploratory, no tests",mean,gradcam,convolutional - hybrid,820,680,-0.029868435528453963,0.0049293418885463765,defined,-0.039471269666480256,-0.02051255973637578,0
+"POST HOC (D10), exploratory, no tests",mean,gradcam,convolutional - transformer,820,680,-0.02778621298619916,0.006488357934644679,defined,-0.0402757470572714,-0.01527796837854561,0
+"POST HOC (D10), exploratory, no tests",mean,gradcam,hybrid - transformer,820,680,0.002082222542254794,0.0066224950415091684,defined,-0.010559353748173229,0.01506065323542977,0
+"POST HOC (D10), exploratory, no tests",mean,ig,convolutional - hybrid,820,680,0.14737599078433816,0.007006266803784583,defined,0.13346295185520743,0.16093574615195105,0
+"POST HOC (D10), exploratory, no tests",mean,ig,convolutional - transformer,820,680,-0.280492212282426,0.009858586239520595,defined,-0.29947275035212684,-0.26161716748875447,0
+"POST HOC (D10), exploratory, no tests",mean,ig,hybrid - transformer,820,680,-0.4278682030667642,0.010173821214040011,defined,-0.44749737772591,-0.40805045739832074,0
+"POST HOC (D10), exploratory, no tests",mean,occlusion,convolutional - hybrid,820,680,0.008047687836469808,0.007834266022113522,defined,-0.007169686741980691,0.023440856061578225,0
+"POST HOC (D10), exploratory, no tests",mean,occlusion,convolutional - transformer,820,680,-0.09267895725955629,0.012258767606494532,defined,-0.11653301605494322,-0.0689846666177785,0
+"POST HOC (D10), exploratory, no tests",mean,occlusion,hybrid - transformer,820,680,-0.10072664509602608,0.013578250567433432,defined,-0.12692652006300414,-0.07484670134418092,0

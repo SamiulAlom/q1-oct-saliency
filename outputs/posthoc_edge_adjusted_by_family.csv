@@ -1,0 +1,19 @@
+analysis,fill,method,family,models,n_images,n_groups,estimate,se_cluster,inference,ci95_low,ci95_high,n_resamples_invalid
+"POST HOC (D10), exploratory, no tests",blur,gradcam,convolutional,efficientnet_b0+mobilenetv3_large_100,820,680,0.13856721011579884,0.004447163170475936,defined,0.13008562324095985,0.14728541606526885,0
+"POST HOC (D10), exploratory, no tests",blur,gradcam,hybrid,efficientformer_l1+mobilevit_s,820,680,0.09185573974189998,0.00510727303457612,defined,0.08188679622421058,0.10181970733270623,0
+"POST HOC (D10), exploratory, no tests",blur,gradcam,transformer,deit_small_patch16_224+deit_tiny_patch16_224,820,680,0.10503888554351844,0.006253921702826278,defined,0.09315309527130967,0.11708654727870302,0
+"POST HOC (D10), exploratory, no tests",blur,ig,convolutional,efficientnet_b0+mobilenetv3_large_100,820,680,-0.12760059762714013,0.005638457047453351,defined,-0.13859388100143238,-0.1163974764726346,0
+"POST HOC (D10), exploratory, no tests",blur,ig,hybrid,efficientformer_l1+mobilevit_s,820,680,-0.26108768347776706,0.008332170700641616,defined,-0.2772181459585572,-0.24452871364984036,0
+"POST HOC (D10), exploratory, no tests",blur,ig,transformer,deit_small_patch16_224+deit_tiny_patch16_224,820,680,0.19326664026039908,0.01012501939388426,defined,0.17362625731310272,0.21289743823374535,0
+"POST HOC (D10), exploratory, no tests",blur,occlusion,convolutional,efficientnet_b0+mobilenetv3_large_100,820,680,0.05526110277133588,0.005405195695081785,defined,0.04448016870283852,0.06584606819815408,0
+"POST HOC (D10), exploratory, no tests",blur,occlusion,hybrid,efficientformer_l1+mobilevit_s,820,680,0.053441339902538215,0.008520751252651742,defined,0.03634390313192064,0.06973610227597705,0
+"POST HOC (D10), exploratory, no tests",blur,occlusion,transformer,deit_small_patch16_224+deit_tiny_patch16_224,820,680,0.14070210483094964,0.012524888907942663,defined,0.11674789794024747,0.16489875147155095,0
+"POST HOC (D10), exploratory, no tests",mean,gradcam,convolutional,efficientnet_b0+mobilenetv3_large_100,820,680,0.08848870145079886,0.0036551562139145316,defined,0.08141418637785686,0.09560476722699149,0
+"POST HOC (D10), exploratory, no tests",mean,gradcam,hybrid,efficientformer_l1+mobilevit_s,820,680,0.11835713697925279,0.005349372000604377,defined,0.10812942581524096,0.12875092602388927,0
+"POST HOC (D10), exploratory, no tests",mean,gradcam,transformer,deit_small_patch16_224+deit_tiny_patch16_224,820,680,0.116274914436998,0.006811467254452807,defined,0.10322766065412992,0.12936098136405227,0
+"POST HOC (D10), exploratory, no tests",mean,ig,convolutional,efficientnet_b0+mobilenetv3_large_100,820,680,-0.07560467692645403,0.0038957329792506383,defined,-0.08315238446949125,-0.06796492653854189,0
+"POST HOC (D10), exploratory, no tests",mean,ig,hybrid,efficientformer_l1+mobilevit_s,820,680,-0.22298066771079222,0.008122021114893014,defined,-0.23844455461289796,-0.20693948206377644,0
+"POST HOC (D10), exploratory, no tests",mean,ig,transformer,deit_small_patch16_224+deit_tiny_patch16_224,820,680,0.20488753535597198,0.010788241176963595,defined,0.18382413706881054,0.2256041064127315,0
+"POST HOC (D10), exploratory, no tests",mean,occlusion,convolutional,efficientnet_b0+mobilenetv3_large_100,820,680,0.010480561090506945,0.003983499771313529,defined,0.002551097232451897,0.018126723386085584,0
+"POST HOC (D10), exploratory, no tests",mean,occlusion,hybrid,efficientformer_l1+mobilevit_s,820,680,0.0024328732540371406,0.008717030791492502,defined,-0.014893585982557963,0.01916927151291846,0
+"POST HOC (D10), exploratory, no tests",mean,occlusion,transformer,deit_small_patch16_224+deit_tiny_patch16_224,820,680,0.10315951835006322,0.013360721720334583,defined,0.07748626771139505,0.12925535130317053,0
